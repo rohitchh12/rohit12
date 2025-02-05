@@ -1,0 +1,94 @@
+import React from "react";
+import react1 from "../assets/react1.png";
+import tailwind from "../assets/tailwind.png";
+import express from "../assets/express.png";
+import javascript from "../assets/javascript.png";
+import uiux from "../assets/ux-ui-logo.png";
+import redux from "../assets/redux.png";
+
+const Skills = () => {
+  return (
+    <>
+      <div className="flex-col h-[500px] w-230 bg-orange-300 mt-15 ml-75">
+        <div className="bg-red-400 h-20 flex justify-center items-center flex-col">
+          <div className="text-white text-3xl mt-12 pb-4">Skills</div>
+          <div className="bg-red-200">
+            As a Junior Web Developer, I am confident in my ability to build
+            full-stack web applications. I am proficient in Data structures too
+            and I am committed to continuous learning and development, with a
+            specific focus on becoming a proficient MERN stack developer.
+          </div>
+        </div>
+        <div className="grid grid-cols-2 gap-2 justify-between items-center mt-20 pl-4 pr-4">
+          <div className="flex gap-4">
+            <div className="h-20 w-40">
+              <img className="rounded-full" src={react1}></img>
+            </div>
+            <div className="text-gray-800 text-sm">
+              Progressive React learner with over 1-year of experience in
+              building react web applications. Proficient in Javascript and
+              RESTful APIs, with a proven record of enhancing skills.
+            </div>
+          </div>
+          <div className="flex gap-4">
+            <div className="h-20 w-40">
+              <img
+                className="rounded-full bg-white pt-2 pb-2"
+                src={tailwind}
+              ></img>
+            </div>
+            <div className="text-gray-800 text-sm ml-5">
+              As a Junior Web Developer with over six months of experience, I
+              have developed a strong enthusiasm for using Tailwind CSS. This
+              utility-first framework has transformed my approach to designing
+              web applications, making the process both efficient and enjoyable.
+            </div>
+          </div>
+          <div className="flex gap-4">
+            <div className="h-20 w-40">
+              <img
+                className="rounded-full bg-white pt-1 pb-1"
+                src={express}
+              ></img>
+            </div>
+            <div className="text-gray-800 text-sm">
+              As a Junior Web Developer with six months of dedicated learning experience
+              in mastering the MERN stack, I am proficient in building dynamic
+              and responsive web applications.
+            </div>
+          </div>
+          <div className=" flex gap-4">
+            <div className="h-20 w-30">
+              <img className="rounded-4xl" src={javascript}></img>
+            </div>
+            <div className="text-gray-800 text-sm">
+              With over 1-year of learning experience in web development, I have gained
+              significant proficiency in writing JSX code for my applications.
+            </div>
+          </div>
+          <div className="flex gap-4">
+            <div className="h-30 w-40">
+              <img className="rounded-full" src={uiux}></img>
+            </div>
+            <div className="text-gray-800 text-sm">
+              With over 1.5 years of learning experience in web page design, I find great
+              satisfaction in applying my skills while observing real-time
+              changes during the development process.
+            </div>
+          </div>
+          <div className="flex gap-4">
+            <div className="h-20 w-30">
+              <img className="rounded-2xl" src={redux}></img>
+            </div>
+            <div className="text-gray-800 text-sm">
+              With six months of learning experience working on projects in React, I have
+              developed proficiency in state management using Redux.
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Skills;
